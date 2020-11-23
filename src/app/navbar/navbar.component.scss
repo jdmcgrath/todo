@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  padding-top: 5vh;
+  margin: auto;
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 30px;
+  }
+
+  .header-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin: 30px;
+  }
+}

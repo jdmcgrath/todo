@@ -1,0 +1,23 @@
+.searchbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__input {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  &__btn-add {
+    background-color: #d16ba5;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+  }
+}

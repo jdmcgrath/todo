@@ -1,0 +1,6 @@
+<ul class="list-item">
+  <li *ngFor="let item of list" class="item">
+    {{ item }}
+    <button class="del-button" (click)="handleDelete(item)">Completed</button>
+  </li>
+</ul>
